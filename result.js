@@ -21,7 +21,7 @@ function searchAgain() {
         return;
     }
 
-    window.location.href = `result.html?artist=${encodeURIComponent(query)}`;
+    window.location.href = `/result?artist=${encodeURIComponent(query)}`;
 }
 
 if (!artistQuery) {
