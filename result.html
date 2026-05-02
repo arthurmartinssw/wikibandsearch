@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado - Wikiband Search</title>
+    <link rel="stylesheet" href="style.css?v=1.0">
+</head>
+
+<body>
+    <header class="header result-header">
+        <a href="index.html" class="logo result-logo">
+            <span>Wikiband</span>
+            <strong>Search</strong>
+        </a>
+
+        <div class="top-search-box">
+            <input type="text" id="resultSearchInput" placeholder="Pesquisar no Wikiband Search...">
+            <button id="resultSearchButton">Pesquisar</button>
+        </div>
+
+        <nav class="nav">
+            <a id="wikibandLink" href="https://wikiband.vercel.app/">Ir para Wikiband</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="artistContainer" class="artist-result-container">
+            <p class="empty-message">Carregando informações...</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Wikiband Search - Feito para explorar o mundo da musica.</p>
+    </footer>
+
+    <script src="result.js"></script>
+</body>
+</html>
